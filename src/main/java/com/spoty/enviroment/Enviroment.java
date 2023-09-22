@@ -7,7 +7,7 @@ public interface Enviroment {
 	String DRIVER = "com.mysql.cj.jdbc.Driver";
 	String CONEXION = "jdbc:mysql://localhost:3306/spoty?characterEncoding=UTF-8";
 	String USUARIO = "root";
-	String CONTRASENA = "Akiraeva_01";
+	String CONTRASENA = "pass";
 	
 	String GET_PERMISOS = "call lista_permisos();";
 	String POST_USUARIO = "call anadir_usuario(?,?,?,?,?);";
