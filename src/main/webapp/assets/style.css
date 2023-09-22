@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url(./img/fondo.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color : rgba(255, 200, 200, 0.9);
+}
+
+.modal-content{
+	background-color: black !important;
+	border: 1px solid rgba(255, 200, 200, 0.9);
+}
+
+.card{
+	background-color: black !important;
+	border: 1px solid rgba(255, 200, 200, 0.9);
+	color : rgba(255, 200, 200, 0.9);
+}
+
+b{
+	color : rgba(255, 200, 200, 0.9);
+}
+
+ul{
+	list-style: none !important;
+}
+
+.hidden{
+	visibility: hidden;
+}
+
+.disapear{
+	display: none;
+}
+
+.vh-25{
+	height: 25vh !important;
+}
+
+.vh-50{
+	height: 50vh !important;
+}
+
+.vh-75{
+	height: 75vh !important;
+}
+
+.brand-logo {
+    color: #fff;
+    font-size: 2.1rem;
+    padding: 0;
+    white-space: nowrap;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 6px #292736, 0 0 8px #292736, 0 0 10px #292736, 0 0 12px #292736, 0 0 14px #292736;
+    animation: glow 5s infinite alternate;
+}
+
+.logo{
+	width: 15%;
+	min-width: 60px;
+}
+
+footer{
+	height: 30vh;
+}
+
+*::-webkit-scrollbar{
+	display: none;
+	visibility: hidden;
+}
+
+
+/* Animation as suggested by Ismail Ghallou */
+@keyframes glow {
+    to {
+     text-shadow: 0 0 4px #fff, 0 0 8px #fff, 0 0 12px #d25ed4, 0 0 16px #d25ed4, 0 0 20px #d25ed4, 0 0 24px #d25ed4, 0 0 28px #d25ed4;
+    }
+  }
